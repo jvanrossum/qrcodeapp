@@ -1,26 +1,17 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+Example app how to connect with the [SnelStart B2B API](https://b2bapi-developer.snelstart.nl/) using the QR Code.
+Created with [Ionic](https://ionicframework.com).
 
-## How to use this template
-
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
+## Prerequisites
+1. Install [Node.js](https://nodejs.org)
+2. Follow the [Android](https://cordova.apache.org/docs/en/latest/guide/platforms/android) and [iOS](https://cordova.apache.org/docs/en/latest/guide/platforms/ios) platform guides to install required tools for development.
+3. Add ionic and cordova npm commands globally
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
 ```
 
-Then, to run it, cd into `myBlank` and run:
-
+## Run
+Run it on your device by connecting it to your compone (so you can actually scan a real QR Code)
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ ionic cordova run android --device
 ```
-
-Substitute ios for android if not on a Mac.
-
+Substitute android for ios if you are on a Mac.
